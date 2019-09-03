@@ -14,6 +14,6 @@ $(document).ready(function() {
     var newEntry = new Entry (journalTitle, journalBody);
     console.log(newEntry);
     newEntry.vowelCounter();
-    $(".result").text("The number of vowels is: " + newEntry.vowelCount);
+    $(".result").text("The number of vowels is: " + newEntry.vowelCount + ". The number of words is: " + newEntry.wordCount + ". The number of constinents is: " + newEntry.constCount);
   });
 });
